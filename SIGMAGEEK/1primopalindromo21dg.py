@@ -1,10 +1,8 @@
 import datetime
-
 import sympy
 
-print()
 
-def gera_primos_21dg():
+def gera_primos_palindromos_21dg():
     primos =[]
     extrem = [1,3,7,9]
     x = 0
@@ -24,4 +22,4 @@ def gera_primos_21dg():
     #         print("proximo loop central ",datetime.datetime.now()-inicio,len(primos))
     # return primos
 
-gera_primos_21dg()
+gera_primos_palindromos_21dg()
