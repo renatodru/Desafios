@@ -1,30 +1,23 @@
 import datetime
 import sympy
-
-
-def gera_primos_palindromos_21dg():
-    primos =[]
-    extrem = [1,3,7,9]
-    x = 0
-    for ex in extrem:
-        for center in range (0,10):
-            inicio = datetime.datetime.now()
-            print("iniciando {}".format(inicio))
-            for laterall in range(0, 999_999_999):                
-                if sympy.isprime(teste):
-                    primos.append(teste)
-                    if len(primos)%50000 == 0:
-                        print("Qnt calculada: ",len(primos)," - tempo: ",datetime.datetime.now()-inicio,len(primos)," último calculado: ",teste," lateral: ",laterall," percent ",laterall/999_999_999*100)
-                        x +=1
-                        if x==10:return None
-    #         print("proximo loop central ",datetime.datetime.now()-inicio,len(primos))
-    # return primos
+import math
+from decimal import Decimal
 
 rsa = 1522605027922533360535618378132637429718068114961380688657908494580122963258952897654000350692006139
+____= 1522605027922533275426845872498740813725662221078798911910121264431447637180233616549037967478358016
+rsa_1 = 37975227936943673922808872755445627854565536638199
+rsa_2 = 40094690950920881030683735292761468389214899724061
+
+raiz_ = 39020571855401265608465770302117235537201395138560
+
+diff = rsa_2 - rsa_1
+
 inicio = datetime.datetime.now()
-print("iniciando {}".format(inicio))
-print(sympy.isprime(rsa))
-print(sympy(rsa))
-print("tempo: ",datetime.datetime.now()-inicio)
-    
+
+final = [1,3,7,9]
+
+
+raiz = Decimal(rsa*0.5)
+print(raiz)
+
 
