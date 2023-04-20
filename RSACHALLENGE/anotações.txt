@@ -1,3 +1,22 @@
+Objetivo: encontrar o par de primos, p1 e p2, que multiplicados resultam no número dado, denominado RSA.
+Fazer um plano catesiano com os números primos nos eixos x e y, os valores da tebela serão a raiz do produto entre os dois primos.
+Mapa de calor da raiz do produto entre dois primos: resulta em uma função circular que irá conter a raiz do número dado.
+
+x² + y² = r²
+
+
+
+abordagens possiveis:
+identificar outra função matematica que não a função circular dada pelo mapa de calor.
+
+
+
+
+
+
+
+
+
 Embora tecnicamente seja possível alterar o código do Crivo de Atkin para encontrar apenas os números primos em uma faixa específica de números em vez de encontrar todos os números primos abaixo de um limite superior, pode não ser prático fazê-lo para faixas extremamente grandes, como números de 20 dígitos.
 
 A razão para isso é que o Crivo de Atkin é projetado para encontrar todos os números primos abaixo de um determinado limite de maneira eficiente. No entanto, para encontrar os números primos dentro de um intervalo específico, o código precisaria iterar por cada número dentro da faixa e verificar se ele é primo ou não, em vez de usar os padrões gerados pelo Crivo de Atkin.
